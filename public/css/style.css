@@ -1,0 +1,99 @@
+/*style.css, Jian Heng Wu Wu, 301225095, Oct 5 2023*/
+/*Setting the structure*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* the background color for the entire page*/
+  body {
+    background-color: #1E2122;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* I'm making the fading effect for the header */
+  header {
+    background: linear-gradient(to right, #000, #444);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /*Size of the header image*/
+  header img {
+    width: 80px;
+    height: 80px;
+  }
+
+  /*These are the navigation bar elements*/
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Just padding the main*/
+  main {
+    padding: 20px;
+  }
+  
+  /* Styling the section*/
+  section {
+    margin: 20px 0;
+    background-color: #181A1B;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* And styling the button*/
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* the contact form */
+  form label, form input, form textarea {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  /* the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  /* make the image smaller*/
+  .scaled_image {
+    width: 200px;
+    height: 250px;
+  }
+
+  /*make the image in the project page smaller*/
+  .project img{
+    width: 256px;
+    height: 256px;
+  }
+  

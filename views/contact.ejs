@@ -1,0 +1,50 @@
+<!--Header-->
+<%- include('partials/header') %>
+    
+<!--Main-->
+    <main>
+        <section id="contact">
+            <!--A message encoraging to reach me-->
+            <h1>Contact Me</h1>
+            <p>
+                Feel free to get in touch with me. I'm here to answer your questions and discuss potential projects. You can reach me via the contact form below or through the following methods:
+            </p>
+            <!--My contacts-->
+            <div id="contact-methods">
+                <ul>
+                    <li>Email: kevin123zxc56@gmail.com</li>
+                    <li>Phone: (647)-472-3285</li>
+                </ul>
+            </div>
+            <!--This is the form-->
+            <form action="/contact" method="POST">
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="contactNumber">Contact Number:</label>
+                    <input type="tel" id="contactNumber" name="contactNumber" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <!--This is the Submit button-->
+                <div class="form-group">
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+<!--Footer-->
+<%- include('partials/footer') %>
